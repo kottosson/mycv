@@ -1,38 +1,51 @@
 .App {
-  text-align: center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.container{
+  margin: 40px;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.header {
+  border: rgb(184, 184, 184) solid 0.4px;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  justify-content: space-between;
+  padding: 20px;
 }
 
-.App-link {
-  color: #61dafb;
+.headerInfo{
+  margin: 0px;
+}
+.profilePhoto {
+  height:200px;
+  width:auto;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.jobWrapper{
+  background-color: rgb(232, 226, 226);
+  margin-bottom: 20px;
+}
+.jobInfo {
+  display: flex;
+  justify-content: space-between;
+}
+.jobName {
+  font-style: italic;
+  margin: auto;
+}
+ul {
+  margin:auto;
+  margin-top: 10px;
+}
+.educationWrapper {
+  background-color: rgb(232, 226, 226);
+  margin-bottom: 20px;
+}
+
+.educationWrapper :hover{
+  background-color: rgb(189, 189, 189);
+}
+.educationInfo {
+  display: flex;
+  justify-content: space-between;
+}
+.schoolInfo {
+  margin: 0px;
 }
