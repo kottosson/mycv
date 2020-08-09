@@ -25,7 +25,7 @@ function App() {
 
       <Jobs 
         workPlace="Icelandair"
-        jobYear="Nov 2018-Nov 2019"
+        jobYear="Apr 2018-Nov 2019"
         jobName="Legal Advisor, Customer relations"
         jobDescription1="Handling legal disputes in passenger disruption cases."
         jobDescription2="Communication with law firms and government entities and settling cases before entering litigation."
@@ -34,7 +34,7 @@ function App() {
 
       <Jobs 
         workPlace="Icelandair"
-        jobName="Cabin crew"
+        jobName="Cabin Crew"
         jobYear="Jun 2014-Aug 2019"
         jobDescription1="Trained for all kinds of emergency situations along with dealing with unforeseen circumstances."
         jobDescription2="Working with inflight crew to deliver the highest standard of service to our passengers"
@@ -50,7 +50,7 @@ function App() {
       <Jobs 
         workPlace="Vörður Insurance"
         jobYear="May 2014-Sep 2014"
-        jobName="Insurance counselor"
+        jobName="Insurance Counselor"
         jobDescription1="Provide customers with insurances tailored to their needs."
         jobDescription2="Handling all sorts of conflicts that arise with customers."
         />
@@ -65,13 +65,22 @@ function App() {
         /> */}
       <h1 className="openSans">Education</h1>
       <Education 
-        school="Háskóli Íslands" 
-        year="2013-2016"
-        degree="Magister juris (MA), Lögfræði"/>
+        school="Unversity of Iceland" 
+        year="2016"
+        degree="Magister Juris (MA), Law"
+        eduDescription1="Courses include: Intellectual Property in Industry, Corporate Law, Personal Rights, Competition law, Mass Media Law, Commercial and Consumer Law, Law of contracting and Tendering, Bankruptcy Proceedings and Administration, Foreclosure and
+        Forced Sale of Property, Lease Law."
+        eduDescription2="Masters thesis: Restriction of competition by object in 101(1) Treaty on the Functioning of the European Union."
+        />
+
       <Education 
-        school="Háskóli Íslands" 
-        year="2013-2016"
-        degree="Masters"/>
+        school="Unversity of Iceland" 
+        year="2013"
+        degree="Baccalaureus Artium (BA), Law"
+        eduDescription1="Courses include: Legal theory, Statutory Interpretation, Constitution law, Law of Contracts, Law of Torts, Administrative Law,
+        Criminal Law, European Law, Law of Obligations, Civil and Criminal Procedure, Law of Property, Criminal Law."
+        eduDescription2="Board member of Orator, the law student union in the University of Iceland."
+        />
         
       
     </div>

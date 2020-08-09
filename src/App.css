@@ -9,9 +9,8 @@
   font-family: Rale;
 }
 .container{
-  margin-top: 100px;
-  margin-left:160px;
-  margin-right:160px;
+  width: 50%;
+  margin: auto;
 }
 .header {
   display: flex;
@@ -34,6 +33,11 @@
 }
 .jobWrapper{
   margin-bottom: 20px;
+}
+
+.jobWrapper:hover{
+  background-color: rgb(225, 221, 221);
+  transition: 1s;
 }
 .jobInfo {
   display: flex;
@@ -61,18 +65,26 @@ li{
 
 .educationWrapper {
   margin-bottom: 20px;
+
 }
 
-.educationWrapper :hover{
-  background-color: rgb(189, 189, 189);
-}
 .educationInfo {
   display: flex;
   justify-content: space-between;
-  border-bottom: 1px black solid;
+}
 
+.educationWrapper:hover{
+  background-color: rgb(225, 221, 221);
+  transition: 1s;
 }
 .schoolInfo {
   margin: 0px;
-
+  font-family: 'Open Sans', sans-serif;
+}
+.schoolDegree{
+  font-style: italic;
+  font-family: 'Open Sans', sans-serif;
+}
+.schoolDescription{
+  font-family: 'Open Sans', sans-serif;
 }
