@@ -6,8 +6,8 @@ function CVheader(){
         <div className="header">
             <div>
                 <h1>Kjartan Ottósson</h1>
-                <h3 className="headerInfo">Email: kjartan.ottosson@gmail.com</h3>
-                <h3 className="headerInfo">Phone: 8490319</h3>
+                <h4 className="headerInfo">Email: kjartan.ottosson@gmail.com</h4>
+                <h4 className="headerInfo">Phone: 8490319</h4>
             </div>
             <img className="profilePhoto" src={KO}></img>
             

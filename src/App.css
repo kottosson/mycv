@@ -1,13 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+.uberAlles{ 
+  background-color: rgb(233, 233, 233);
+  border:black solid 1px;
+}
 .App {
+  margin: auto;
+  font-family: Rale;
 }
 .container{
-  margin: 40px;
+  margin-top: 100px;
+  margin-left:160px;
+  margin-right:160px;
 }
 .header {
-  border: rgb(184, 184, 184) solid 0.4px;
   display: flex;
   justify-content: space-between;
-  padding: 20px;
+  font-family: 'Open Sans', sans-serif;
 }
 
 .headerInfo{
@@ -18,24 +27,39 @@
   width:auto;
 }
 
+.openSans{
+  font-family: 'Open Sans', sans-serif;
+  margin: auto;
+  margin-bottom: 15px;
+}
 .jobWrapper{
-  background-color: rgb(232, 226, 226);
   margin-bottom: 20px;
 }
 .jobInfo {
   display: flex;
   justify-content: space-between;
+  font-family: 'Open Sans', sans-serif;
 }
 .jobName {
   font-style: italic;
   margin: auto;
+  font-family: 'Open Sans', sans-serif;
 }
 ul {
   margin:auto;
   margin-top: 10px;
+  text-align: left;
+  font-family: 'Open Sans', sans-serif;
+  text-align: justify;
+
 }
+
+li{
+  list-style-type: square ; 
+}
+
+
 .educationWrapper {
-  background-color: rgb(232, 226, 226);
   margin-bottom: 20px;
 }
 
@@ -45,7 +69,10 @@ ul {
 .educationInfo {
   display: flex;
   justify-content: space-between;
+  border-bottom: 1px black solid;
+
 }
 .schoolInfo {
   margin: 0px;
+
 }
